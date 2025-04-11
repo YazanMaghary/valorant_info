@@ -38,6 +38,7 @@ dependencies:
   audioplayers: ^4.1.0
   http: ^0.13.5
   flutter_launcher_icons: ^0.13.1
+  win32: ^5.5.4
 flutter_launcher_icons:
   android: "launcher_icon"
   ios: true

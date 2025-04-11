@@ -78,7 +78,7 @@ class myShowInfoWidget extends StatelessWidget {
                                     ScaffoldMessenger.of(context)
                                         .showSnackBar(SnackBar(
                                       backgroundColor:
-                                          ThemeData.dark().backgroundColor,
+                                          ThemeData.dark().colorScheme.surface,
                                       content: Text(
                                         desc[index],
                                         style: const TextStyle(
